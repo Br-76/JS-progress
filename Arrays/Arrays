@@ -1,0 +1,29 @@
+// Arrays podem ser definidos como listas, encurtando a quantidade de variaveis necessarias para um problema
+
+// Sem array
+
+const nota1 = 12;
+const nota2 = 23;
+const nota3 = 34 ;
+const media = (nota1 + nota2 + nota3) / 3;
+
+console.log(media)
+
+// Com array 
+
+const notas = [1.2, 5 , 10.5];
+//PS: Tem quw usar é a [] e não {}
+// Caso queira adicionr um valor extra ao array, podemos ultilizar o:
+notas.push(1);
+
+// A posição de cada número e dada por 0, 1 , 2 ...
+const mediana = (notas[0] + notas[1] + notas[2] + notas[3] ) / notas.length;
+//                                                em casos de listas imensas, use isso para polpar tempo
+console.log(mediana)
+
+// Para remover algum componente do array, ultilizamos o: 
+.pop()
+
+
+
+
